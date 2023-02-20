@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    gap : 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.item{
+    width: 25vw;
+    height: 50vh;
+    font-family: Impact, fantasy;
+    color: black;
+    box-shadow: black 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5%;
+    margin: 5% 0;
+    text-align: center;
+
+}
+
+.item img{
+    border-radius: 5%;
+
+    width: 24vw;
+    height: 45vh;
+}
