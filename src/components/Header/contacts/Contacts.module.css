@@ -1,0 +1,22 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+width: 100vw;
+    font-family: Lobster;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 7%;
+    /*box-shadow: black 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+
+}
+.item img {
+    height: 50vh;
+}
+

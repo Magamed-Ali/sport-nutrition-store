@@ -1,26 +1,37 @@
 import React from 'react';
-import Header from "./components/Header";
-
+import Header from "./components/Header/Header1/Header";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Delivery from "./components/Header/Delivery/Delivery";
+import Opt from "./components/Header/Opt/Opt";
+import Services from "./components/Header/services/Services";
+import Contacts from "./components/Header/contacts/Contacts";
+import Header2 from "./components/Header/Header2/Header2";
+import WhatsApp from "./components/whatsApp/WhatsApp";
+import SportPit from "./components/Header2/sportPit/SportPit";
+import Stocks from "./components/Header2/stocks/Stocks";
+import Sarms from "./components/Header2/sarms/Sarms";
 
 
 function App() {
-  return (
-    <div className="container">
-<p>sdscsdcs</p>
+    return (
+        <BrowserRouter>
+            <div>
+                <Header/>
+                   <Header2/>
+                <Routes>
+                <Route path={"/delivery"} element={<Delivery />}/>
+                <Route path={"/opt"} element={<Opt />}/>
+                <Route path={"/services"} element={<Services />}/>
+                <Route path={"/contacts"} element={<Contacts />}/>
+                <Route path={"/sport-pit"} element={<SportPit />}/>
+                <Route path={"/stocks"} element={<Stocks />}/>
+                <Route path={"/sarms"} element={<Sarms />}/>
 
-        <button type="button" className="btn btn-primary">Primary</button>
-        <button type="button" className="btn btn-secondary">Secondary</button>
-        <button type="button" className="btn btn-success">Success</button>
-        <button type="button" className="btn btn-danger">Danger</button>
-        <button type="button" className="btn btn-warning">Warning</button>
-        <button type="button" className="btn btn-info">Info</button>
-        <button type="button" className="btn btn-light">Light</button>
-        <button type="button" className="btn btn-dark">Dark</button>
-
-        <button type="button" className="btn btn-link">Link</button>
-        <Header/>
-    </div>
-  );
+                </Routes>
+                <WhatsApp/>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
