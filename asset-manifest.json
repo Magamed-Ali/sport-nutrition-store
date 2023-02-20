@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sport-nutrition-store/static/css/main.c712d6f3.css",
+    "main.js": "/sport-nutrition-store/static/js/main.03875b40.js",
+    "static/js/787.8c18bf37.chunk.js": "/sport-nutrition-store/static/js/787.8c18bf37.chunk.js",
+    "static/media/adressMap.jpg": "/sport-nutrition-store/static/media/adressMap.9c722e4cef206a9929c3.jpg",
+    "index.html": "/sport-nutrition-store/index.html",
+    "main.c712d6f3.css.map": "/sport-nutrition-store/static/css/main.c712d6f3.css.map",
+    "main.03875b40.js.map": "/sport-nutrition-store/static/js/main.03875b40.js.map",
+    "787.8c18bf37.chunk.js.map": "/sport-nutrition-store/static/js/787.8c18bf37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c712d6f3.css",
+    "static/js/main.03875b40.js"
+  ]
+}
