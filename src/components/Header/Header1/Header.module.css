@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    border : solid grey 2px;
+    width: 100vw;
+    background-color: black;
+    /*position: fixed; !* Фиксированное положение *!*/
+    /*left: 1%; !* Расстояние от правого края окна браузера *!*/
+    /*top: 20%; !* Расстояние сверху *!*/
+    /*padding: 10px; !* Поля вокруг текста *!*/
+    /* !* Цвет фона *!*/
+    /*height: 40vh;*/
+    /*border: 1px solid #333; !* Параметры рамки *!*/
+    position: sticky;
+    top: 0;
+}
+.item a {
+    font-family: Lobster;
+    color: white;
+    text-decoration: none;
+}
+.stickyWhatsApp{
+    position: sticky;
+    bottom: 0;
+}
